@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadrado {
+    width: 10vw;
+    height: 10vh;
+    min-width: 100px;
+    background-color: #2166a7;
+    min-width: 100px;
+    min-height: 100px;
+    border: solid #0d2c49;
+}
