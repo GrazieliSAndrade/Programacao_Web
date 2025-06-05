@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap : Faz com que seu container flexível
+distribua os itens em uma nova linha quando a tela estiver muito cheia */
+/* Alt + Z : Quebra linha */
+    /* flex-basis delimita um tamanho mínimo inicial para os elementos flexíveis */
+}
+
+.quadrado {
+    background-color: #6495ed;
+    width: 150px;
+    height: 150px;
+    border: #a1bdf1 solid 5px;
+    font-size: 95px;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+
+#quatro {
+    flex-grow: 3;
+    /* flex-grow faz com que o elemento cresça dentro do container de
+     acordo com o número indicado, lembrando que todos os iten começam com o padrão 0.
+      Por exemplo, se colocar o valor 2 o elemento ocupará o dobro de espaço. */
+
+    flex-shrink: 3;
+    /* flex-shrink faz com que o elemento diminua mais 
+    agressivamente que os outros elementos. */
+
+}
+
+#seis {
+    /* flex-basis: 600px; */
+        /* flex-basis delimita um tamanho mínimo inicial para os elementos flexíveis */
+    flex: 1 1 300px;
+    /* flex é uma abreviação para os três outros elementos flex,
+     primeiro numero corresponde ao flex-grow,
+     segundo corresponde ao shrink,
+      terceiro corresponde ao flex basis */
+}
+
+footer {
+    background-color: rgb(188, 255, 255);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+}
