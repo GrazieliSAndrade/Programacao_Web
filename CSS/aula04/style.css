@@ -8,13 +8,8 @@
 
 #container {
     background-color: rgb(202, 255, 255);
-    height: 40vh;
-    width: 95vw;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    margin: 0 auto;
+    height: 100px;
  
 }
 
@@ -48,6 +43,7 @@
 
 #cx2 {
     order: 1;
+    align-self: end;
 }
 
 #cx3 {
