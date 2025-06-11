@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: grid;
+    background-color: aliceblue;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-areas: 
+    ". azulescuro verde"
+    "azulescuro2 amarelo azulescuro3"
+    "verde2 azulescuro4 ...";
+}
+
+.branco {
+    background-color: rgb(221, 221, 221);
+    grid-area: branco;
+}
+
+.azulescuro {
+    background-color: rgb(0, 79, 138);
+    grid-area: azulescuro;
+}
+
+.azulescuro2 {
+    background-color: rgb(0, 79, 138);
+    grid-area: azulescuro2;
+}
+
+.azulescuro3 {
+    background-color: rgb(0, 79, 138);
+    grid-area: azulescuro3;
+}
+
+.azulescuro4 {
+    background-color: rgb(0, 79, 138);
+    grid-area: azulescuro4;
+}
+
+.verde {
+    background-color: rgb(47, 77, 30);
+    grid-area: verde;
+}
+
+.verde2 {
+    background-color: rgb(47, 77, 30);
+    grid-area: verde2;
+}
+
+.verde3 {
+    background-color: rgb(47, 77, 30);
+    grid-area: verde3;
+}
+
+.azulClaro {
+    background-color: rgb(92, 169, 233);
+    grid-area: azulClaro;
+}
+.amarelo {
+    background-color: rgb(224, 221, 0);
+    grid-area: amarelo;
+}
